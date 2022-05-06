@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE new-message [
+	<!ELEMENT new-message (receiver)>
+	<!ELEMENT reciever (program, case-barcode, file-name, disease-code, exp-strategy, platform, data-category, data-type, data-format, file-size)>
+
+	<!ELEMENT receiver (#PCDATA)>
+	<!ELEMENT program (#PCDATA)>
+	<!ELEMENT case-barcode (#PCDATA)>
+	<!ELEMENT file-name (#PCDATA)>
+	<!ELEMENT disease-code (#PCDATA)>
+	<!ELEMENT exp-strategy (#PCDATA)>
+	<!ELEMENT platform (#PCDATA)>
+	<!ELEMENT data-category (#PCDATA)>
+	<!ELEMENT data-type (#PCDATA)>
+	<!ELEMENT data-format (#PCDATA)>
+	<!ELEMENT file-size (#PCDATA)>
+
+]>
+
+<new-message>
+	<receiver>
+		<program> BEATAML1.0 </program>
+		<case-barcode> 1001 </case-barcode>
+		<file-name> d8c86819-78f2-425b-8859-271f91d50e86_wxs_gdc_realn.bam
+		[GDC ID: 561fe5a5-6a28-4045-9b1f-8e8cd401503e] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> WXS </exp-strategy>
+		<platform> Illumina </platform>
+		<data-category> Sequencing Reads </data-category>
+		<data-type> Aligned Reads </data-type>
+		<data-format> BAM </data-format>
+		<file-size> 26 GB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> BEATAML1.0 </program>
+		<case-barcode> 1001 </case-barcode>
+		<file-name> c3687569-d404-4b88-b2e6-69d86cff366f_wxs_gdc_realn.bam
+		[GDC ID: e7ce2e1b-7169-4b54-86ea-107300a2d6de] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> WXS </exp-strategy>
+		<platform> Illumina </platform>
+		<data-category> Sequencing Reads </data-category>
+		<data-type> Aligned Reads </data-type>
+		<data-format> BAM </data-format>
+		<file-size> 18.5 GB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> OHSU </program>
+		<case-barcode> 1002 </case-barcode>
+		<file-name> 552cd73a-074e-4655-8383-2150936e37f7.rna_seq.genomic.gdc_realn.bam
+		[GDC ID: 10250383-2fa4-4609-9548-90eb195f314d] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> RNA-Seq </exp-strategy>
+		<platform> Illumina </platform>
+		<data-category> Sequencing Reads </data-category>
+		<data-type> Aligned Reads </data-type>
+		<data-format> BAM </data-format>
+		<file-size> 4.5 GB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> OHSU </program>
+		<case-barcode> 1002 </case-barcode>
+		<file-name> 552cd73a-074e-4655-8383-2150936e37f7.rna_seq.transcriptome.gdc_realn.bam
+		[GDC ID: dc9ff8ad-3509-4072-ad8e-175265546025] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> RNA-Seq </exp-strategy>
+		<platform> Illumina </platform>
+		<data-category> Sequencing Reads </data-category>
+		<data-type> Aligned Reads </data-type>
+		<data-format> BAM </data-format>
+		<file-size> 7.1 GB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> OHSU </program>
+		<case-barcode> 1002 </case-barcode>
+		<file-name> 552cd73a-074e-4655-8383-2150936e37f7.rna_seq.chimeric.gdc_realn.bam
+		[GDC ID: 838f6e07-872d-4899-a46a-76eaf55e4a9c] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> RNA-Seq </exp-strategy>
+		<platform> Illumina </platform>
+		<data-category> Sequencing Reads </data-category>
+		<data-type> Aligned Reads </data-type>
+		<data-format> BAM </data-format>
+		<file-size> 46.7 GB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> OHSU </program>
+		<case-barcode> 1002 </case-barcode>
+		<file-name> 552cd73a-074e-4655-8383-2150936e37f7.rna_seq.star_gene_counts.tsv.gz
+		[GDC ID: 430a2c9b-dd71-4f7a-8876-89cd9f6ff1ba] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> RNA-Seq </exp-strategy>
+		<platform> N/A </platform>
+		<data-category> Transcriptome Profiling </data-category>
+		<data-type> Gene Expression Quantification </data-type>
+		<data-format> TSV </data-format>
+		<file-size> 365.9 KB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> OHSU </program>
+		<case-barcode> 1002 </case-barcode>
+		<file-name> 0061f7ed-4f5f-4301-96e7-628a690aab0f.FPKM-UQ.txt.gz
+		[GDC ID: 5d6f5514-5a79-4e9e-8b8e-207b5fee79f9] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> RNA-Seq </exp-strategy>
+		<platform> N/A </platform>
+		<data-category> Transcriptome Profiling </data-category>
+		<data-type> Gene Expression Quantification </data-type>
+		<data-format> TXT </data-format>
+		<file-size> 373.3 KB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> OHSU </program>
+		<case-barcode> 1002 </case-barcode>
+		<file-name> 0061f7ed-4f5f-4301-96e7-628a690aab0f.htseq_counts.txt.gz
+		[GDC ID: 7f5da084-407a-4e3f-b19e-190340138989] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> RNA-Seq </exp-strategy>
+		<platform> N/A </platform>
+		<data-category> Transcriptome Profiling </data-category>
+		<data-type> Gene Expression Quantification </data-type>
+		<data-format> TXT </data-format>
+		<file-size> 237.5 KB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> OHSU </program>
+		<case-barcode> 1002 </case-barcode>
+		<file-name> 0061f7ed-4f5f-4301-96e7-628a690aab0f.FPKM.txt.gz
+		[GDC ID: 74c46b3c-2c08-494e-9abd-8e7f9fce0aaf] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> RNA-Seq </exp-strategy>
+		<platform> N/A </platform>
+		<data-category> Transcriptome Profiling </data-category>
+		<data-type> Gene Expression Quantification </data-type>
+		<data-format> TXT </data-format>
+		<file-size> 294.4 KB </file-size>
+	</receiver>
+
+	<receiver>
+		<program> OHSU </program>
+		<case-barcode> 1002 </case-barcode>
+		<file-name> 552cd73a-074e-4655-8383-2150936e37f7.rna_seq.star_splice_junctions.tsv.gz
+		[GDC ID: f95ebd6e-9e38-48c3-a181-1e3d62ece2c7] </file-name>
+		<disease-code> N/A </disease-code>
+		<exp-strategy> RNA-Seq </exp-strategy>
+		<platform> N/A </platform>
+		<data-category> Transcriptome Profiling </data-category>
+		<data-type> Splice Junction Quantification </data-type>
+		<data-format> TSV </data-format>
+		<file-size> 2.7 MB </file-size>
+	</receiver>
+
+</new-message>
